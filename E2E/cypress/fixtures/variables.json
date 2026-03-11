@@ -1,0 +1,7 @@
+{
+    "first_name": "TestUserFirstName",
+    "last_name": "TestUserLastName",
+    "zipcode": "07001",
+    "email": "standard_user",
+    "password": "secret_sauce"
+}
