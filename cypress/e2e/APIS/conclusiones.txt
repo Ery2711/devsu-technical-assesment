@@ -1,0 +1,11 @@
+Conclusiones del proyecto: API - Opción 2
+
+
+El código elaborado en Cypress cumple con los requerimientos planteados en el ejercicio #2 del Technical Assesment. Se listan los siguientes puntos:
+
+* Se crearon variables con datos de prueba para ejecutar los 4 escenarios planteaods con los métodos requeridos para cumplir cada test.
+* El método cy.request() optimiza de manera más rápida la obtención de un response enviando un request.
+* Es importante la verificación de la información obtenida en los responses, más alla de solo la validación del status_code.
+* Es importante la documentación de los endpoints y las estructuras requeridas para la ejecución correcta de los methods.
+
+En conclusión, el código de Cypress resultó ser eficiente en la verificación y validación de ls escenarios de API.

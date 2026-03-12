@@ -1,0 +1,12 @@
+Conclusiones del proyecto: Automatización E2E - Opción 2
+
+
+El código elaborado en Cypress cumple con los requerimientos planteados en el ejercicio #2 del Technical Assesment. Se listan los siguientes puntos:
+
+* Previa ejecución del código, el hook "beforeEach" realiza la autenticación del usuario y carga los datos de las variables propuestas en el fixture "variables", permitiendo establecer una correcta conexión a la página antes de realizar la verificación de cualquier test.
+* El uso de each() permitió eficientemente capturar datos de los elementos solicitados logrando así obtener los nombres de productos y precios, pudiendo transformarlos para usarlos como id y validar el correcto monto total de compra respectivamente.
+* El servidor de Cypress que ejecuta el código y muestra el progreso del mismo en tiempo real fue de gran apoyo para detectar los issues y corregirlos, además de la velocidad de ejecución y los mensajes claros para manejar las excepciones.
+* El manejo de variables en el Fixture resulta ser más sencillo al trabajar con campos de un archivo JSON, que permite mejor acceso a la información.
+* El uso de CSS Selectors resulta ser más retador que el uso de Xpaths, pero es sencillo de igual manera para poder identificar los puntos del DOM.
+
+En conclusión, el código de Cypress resultó ser eficiente en la verificación y validación del producto web.
