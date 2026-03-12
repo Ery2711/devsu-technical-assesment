@@ -1,4 +1,4 @@
-const { allowCypressEnv } = require("../../cypress.config")
+const { allowCypressEnv } = require("../../../cypress.config")
 
 describe('Automatizacion E2E - Opcion 2', () => {
   beforeEach('Autenticación válida de usuario', () => {

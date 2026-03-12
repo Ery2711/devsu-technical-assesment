@@ -48,7 +48,6 @@ describe('API requests - Opcion 2', () => {
       response.body.forEach((element) => {
         expect(element.status).to.equal(json_request.status)
       });
-      // expect(response.body.status).to.equal(json_request.status)
     });
   });
 });
